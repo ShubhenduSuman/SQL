@@ -1,6 +1,6 @@
 use Human_Resources;
 
--- Q1. Write a SQL query to print the FIRST_NAME from Worker table after replacing ‘a’ with ‘A’.
+-- Q1. Write a SQL query to print the FIRST_NAME from Worker table after replacing â€˜aâ€™ with â€˜Aâ€™.
  
  select
  REPLACE(first_name, 'a', 'A') as firstname
@@ -9,7 +9,7 @@ use Human_Resources;
 
 -- Q2. Write a SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending and DEPARTMENT Descending.
 
-select * from emp_new
+select * from emp_new;
 
 /* 'emp_new' table; created by joining current_personnel, department & employee tables. */
 
